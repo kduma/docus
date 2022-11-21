@@ -34,7 +34,7 @@ dependencies:
   '@nuxtjs/color-mode': 3.1.8
   '@vueuse/core': 9.5.0_vue@3.2.45
   '@vueuse/nuxt': 9.5.0_rtsexytmojhg5q72v2ahycc4oq
-  pinceau: 0.6.23
+  pinceau: 0.6.25
 
 devDependencies:
   '@algolia/client-search': 4.14.2
@@ -656,7 +656,7 @@ packages:
     dependencies:
       '@nuxtjs/color-mode': 3.1.8
       '@vueuse/core': 9.5.0_vue@3.2.45
-      pinceau: 0.6.23
+      pinceau: 0.6.25
       style-value-types: 5.1.2
     transitivePeerDependencies:
       - '@vue/composition-api'
@@ -673,7 +673,7 @@ packages:
       '@nuxt-themes/tokens': 1.1.4_vue@3.2.45
       '@nuxtjs/color-mode': 3.1.8
       nuxt-icon: 0.1.7_vue@3.2.45
-      pinceau: 0.6.23
+      pinceau: 0.6.25
     transitivePeerDependencies:
       - '@vue/composition-api'
       - postcss
@@ -2608,7 +2608,7 @@ packages:
       readable-stream: 3.6.0
 
   /concat-map/0.0.1:
-    resolution: {integrity: sha1-2Klr13/Wjfd5OnMDajug1UBdR3s=}
+    resolution: {integrity: sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==}
 
   /config-chain/1.1.13:
     resolution: {integrity: sha512-qj+f8APARXHrM0hraqXYb2/bOVSV4PvJQlNZ/DVj0QrmNM2q2euizkeuVckQ57J+W0mRH6Hvi+k50M4Jul2VRQ==}
@@ -3034,7 +3034,7 @@ packages:
     resolution: {integrity: sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==}
 
   /ee-first/1.1.1:
-    resolution: {integrity: sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=}
+    resolution: {integrity: sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==}
 
   /electron-to-chromium/1.4.284:
     resolution: {integrity: sha512-M8WEXFuKXMYMVr45fo8mq0wUrrJHheiKZf6BArTKk9ZBYCKJEOU5H8cdWgDT+qCVZf7Na4lVUaZsA+h6uA9+PA==}
@@ -6443,8 +6443,8 @@ packages:
     resolution: {integrity: sha512-udgsAY+fTnvv7kI7aaxbqwWNb0AHiB0qBO89PZKPkoTmGOgdbrHDKD+0B2X4uTfJ/FT1R09r9gTsjUjNJotuog==}
     engines: {node: '>=0.10.0'}
 
-  /pinceau/0.6.23:
-    resolution: {integrity: sha512-zW9S9VZWVfObAB9STKAYC4gIQsoUXqK9fyetHi6fc018Oglu7lNoTVR+10zML4JhwyvLjj7mp5d8dpnqbWDiSQ==}
+  /pinceau/0.6.25:
+    resolution: {integrity: sha512-R4jyiInDvvpWUIaBDtSTy7Vm6bYpXArHMOGT3OBpWXazh33GU4hXp2GPzVVvM+qFQcOt3ClCCJ9erdDyCmfaow==}
     dependencies:
       '@unocss/reset': 0.46.5
       '@volar/vue-language-core': 1.0.9
@@ -6455,7 +6455,7 @@ packages:
       magic-string: 0.26.7
       nanoid: 4.0.0
       ohash: 1.0.0
-      postcss-custom-properties: 13.0.0
+      postcss-custom-properties: 12.1.10
       postcss-dark-theme-class: 0.7.3
       postcss-nested: 6.0.0
       recast: 0.21.5
@@ -6526,11 +6526,11 @@ packages:
       postcss: 8.4.19
       postcss-value-parser: 4.2.0
 
-  /postcss-custom-properties/13.0.0:
-    resolution: {integrity: sha512-y4lGIjKPdy1gDyGgwZLpMgqcum04JZZ9UWKxO6WjxSEQ1IzaAFxgbiqcF5M4RWHXFqe5Wa549xXz/4F7DU9TYg==}
-    engines: {node: ^14 || ^16 || >=18}
+  /postcss-custom-properties/12.1.10:
+    resolution: {integrity: sha512-U3BHdgrYhCrwTVcByFHs9EOBoqcKq4Lf3kXwbTi4hhq0qWhl/pDWq2THbv/ICX/Fl9KqeHBb8OVrTf2OaYF07A==}
+    engines: {node: ^12 || ^14 || >=16}
     peerDependencies:
-      postcss: ^8.4
+      postcss: ^8.2
     peerDependenciesMeta:
       postcss:
         optional: true
