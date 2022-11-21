@@ -6,7 +6,7 @@ export default defineNuxtConfig({
   extends: ['@nuxt-themes/typography'],
 
   modules: [
-    '@nuxthq/studio',
+    // '@nuxthq/studio',
     'pinceau/nuxt',
     '@nuxtjs/color-mode',
     '@nuxt/content',
@@ -15,6 +15,7 @@ export default defineNuxtConfig({
   ],
 
   css: [
+    'pinceau.css',
     resolve('./assets/css/main.css')
   ],
 
